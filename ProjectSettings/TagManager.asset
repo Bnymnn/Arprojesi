@@ -16,7 +16,11 @@ TagManager:
   - 8
   - 9
   - puanim
+  - islem
+  - puanim_egtm
   - Islemim
+  - bitispanel
+  - sonpanelim
   layers:
   - Default
   - TransparentFX

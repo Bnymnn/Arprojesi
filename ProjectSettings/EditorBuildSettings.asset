@@ -12,11 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Secim.unity
     guid: 068fc576b2115014fb32dcf2d1911ad6
   - enabled: 1
-    path: Assets/Scenes/Egitim.unity
-    guid: d8d23ed2bf05d364fa6f2bea4acf5d1d
-  - enabled: 1
     path: Assets/Scenes/SerbestOyun.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: "Assets/Scenes/tutory\u0131l.unity"
+    guid: 9d92f07766b58d848bc0f6fd0f4b7e7a
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 72a25a4a1a967cb4582fdd9b556f7be7, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: f971687a27af90b49b8d79e5fd933a60, type: 2}

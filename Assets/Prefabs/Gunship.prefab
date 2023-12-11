@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4216859302048453862, guid: 8394012a40e20d14e9158d2b74e12ee7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.03
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 8394012a40e20d14e9158d2b74e12ee7, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.03
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 8394012a40e20d14e9158d2b74e12ee7, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.03
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 8394012a40e20d14e9158d2b74e12ee7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -169,26 +169,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d56ee4db2ae954dbfb2542fd44afec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puan: 0
-  puanim: {fileID: 0}
-  gectinPanel: {fileID: 0}
-  text: {fileID: 0}
-  eski: 0
-  sesler:
-  - {fileID: 8300000, guid: 7afbaf3ee00e4f2409a4effa1e6ec554, type: 3}
-  - {fileID: 8300000, guid: 51d21f0b625f19340abe1f64885fca61, type: 3}
-  - {fileID: 8300000, guid: 6458da812a804744e9d4a8c100322062, type: 3}
-  - {fileID: 8300000, guid: 267ebba9f8cee4a4e988553ecbc39d53, type: 3}
-  - {fileID: 8300000, guid: f1f190070ec4e2240821d0cea702842a, type: 3}
-  - {fileID: 8300000, guid: 7d69bafb8b3c8774aadcbb84c6e58b46, type: 3}
-  - {fileID: 8300000, guid: 5d7c075092a840848a0b757b709c71cf, type: 3}
-  - {fileID: 8300000, guid: bc2b69af28e47ca4399ef63f9237fd36, type: 3}
-  - {fileID: 8300000, guid: 336a0f19452059646b14eb35b696602f, type: 3}
-  - {fileID: 8300000, guid: 3bbc86d91b0ee0b4ea255da204acfc1a, type: 3}
-  dizi: 
-  randomTagNumber: 0
-  randoma: 0
   audioSource: {fileID: 0}
+  islemses: {fileID: 0}
+  sesler:
+  - {fileID: 8300000, guid: 5cb032793046e894d8fbb05aac4ae061, type: 3}
+  - {fileID: 8300000, guid: 5c0111db593d8e44a87c23fcb5e12372, type: 3}
+  - {fileID: 8300000, guid: 5a2e89b0892bd8445a7bf5fc29db15bf, type: 3}
+  - {fileID: 8300000, guid: 0a046a0f8ebe4274493483955e07df29, type: 3}
+  - {fileID: 8300000, guid: a72a849fa80ad5f40912899ef329bb93, type: 3}
+  - {fileID: 8300000, guid: caebed6c434e2514a9034dd3d4a39661, type: 3}
+  - {fileID: 8300000, guid: f5e73cafdbf16b440bc31c46e926055f, type: 3}
+  - {fileID: 8300000, guid: 99cb1eab32538cd4a82ce68c63308292, type: 3}
+  - {fileID: 8300000, guid: 5aef91ea77983cc4fb986c86c7a59a5b, type: 3}
+  - {fileID: 8300000, guid: 8bd95f232e37f1c43b25d012d661089f, type: 3}
+  Puantxt: {fileID: 0}
+  IslemTXT: {fileID: 0}
+  puanim: {fileID: 0}
+  puan: 0
+  eski: 0
+  randomTagNumber: 0
+  randomTagNumber2: 0
+  toplama: 0
+  cikarma: 0
+  hedef: 0
 --- !u!114 &643124816767677095
 MonoBehaviour:
   m_ObjectHideFlags: 0
