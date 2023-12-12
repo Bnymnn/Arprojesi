@@ -17,11 +17,15 @@ public class Serbest : MonoBehaviour
     //Degiskenler, Diziler Ve Objeler
     public static collider col = new collider();  
     public AudioSource audioSource;
+    public AudioSource audioSource2;
+
     public AudioClip islemses;
     public AudioClip baslases;
+    public AudioClip[] sesler;
+    public AudioClip[] seslerAnaobj;
 
-    public AudioClip[] sesler; 
-    
+    public GameObject sestext;
+    TextMeshProUGUI sestext2;
     public GameObject Puantxt;
     TextMeshProUGUI PuanTXT2;
     public GameObject IslemTXT;
@@ -40,6 +44,7 @@ public class Serbest : MonoBehaviour
         PuanTXT2 = Puantxt.GetComponent<TextMeshProUGUI>();     
         if (PlayerPrefs.GetInt("oyunturu")>1)
         {
+            
             audioSource = gameObject.AddComponent<AudioSource>();
             audioSource.clip = islemses;
             audioSource.Play();
@@ -49,6 +54,8 @@ public class Serbest : MonoBehaviour
         }
         else
         {
+            sestext = GameObject.FindWithTag("sestext");
+            sestext2 = sestext.GetComponent<TextMeshProUGUI>();
             audioSource = gameObject.AddComponent<AudioSource>();
             audioSource.clip = baslases;
             audioSource.Play();
@@ -133,6 +140,8 @@ public class Serbest : MonoBehaviour
         
         if (PlayerPrefs.GetInt("oyunturu") == 1 )
         {
+            sestext2.GetComponent<TextMeshProUGUI>();
+            sestext2.text=randomTagNumber.ToString();
             hedef = randomTagNumber;
             audioSource.clip = sesler[randomTagNumber];
             audioSource.Play();
@@ -155,5 +164,20 @@ public class Serbest : MonoBehaviour
     public void sesiptal()
     {
             audioSource.Stop();
+    }
+    public string deger;
+    public int ses;
+    public void sesTekrar()
+    {
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+        deger = sestext2.text;
+        ses=Convert.ToInt32(deger);
+        audioSource.clip = seslerAnaobj[ses];
+        audioSource.Play();
+
+
     }
 } 

@@ -21,6 +21,7 @@ TagManager:
   - Islemim
   - bitispanel
   - sonpanelim
+  - sestext
   layers:
   - Default
   - TransparentFX

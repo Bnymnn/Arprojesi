@@ -17,7 +17,7 @@ public class tutoryıl : MonoBehaviour
     public GameObject sonPanel;
     public Image imagem;
     public AudioSource tutoryilsesim;
-    public AudioSource baslataBasincaCikacakSes;
+    public AudioSource b;
     public AudioSource audioSource;  
     public int puan;  
     public int i =0;
@@ -64,5 +64,13 @@ public class tutoryıl : MonoBehaviour
         audioSource.Play();
 
         }        
+    }
+    public void sesTekrar()
+    {audioSource.Stop();
+        string deger = PuanTXT2_egtm.text;
+        int ses = Convert.ToInt32(deger)/2;
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.clip = sesler[ses];
+        audioSource.Play();
     }
 }
