@@ -8,7 +8,10 @@ Toplama ve Çıkarma modlarında ise Ses ile rakam söylenmemekte fakat ekranda 
 Ek olarak oyunda seçilebilir dört adet karakter mevcutdur.
 
 Github'a APK yükelemede sorun yaşadığımız için APK linki :
+
 https://drive.google.com/drive/folders/1VnuEQTdMCScZkdDHAgKe8MqJKDuh9uw6?usp=drive_link
+
 Oyun içerisinden Video :
+
 https://drive.google.com/drive/folders/15k7G2cVx53ujSecPny7JkIED3itPwKBp?usp=drive_link
 
